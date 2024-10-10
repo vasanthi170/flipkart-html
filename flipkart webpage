@@ -42,18 +42,21 @@
             border: 10px solid black;
             margin-left: 2px;
         }
-        .child>img{
+        .child>img
+        {
             height: 100px;
             width: 100px;
             border-radius: 100px;
             padding-top: 20px;
         }
-        .son>img{
+        .son>img
+        {
             width: 180px;
             height: 180px;
             padding: 0px;
         }
-        .parent{
+        .parent
+        {
            display: flex;
            justify-content: space-evenly;
            border: 2px solid white ;
@@ -61,10 +64,12 @@
            margin: 10px auto;
            flex-wrap: wrap;
         }
-        .child{
+        .child
+        {
             text-align: center;
         }
-        .mother{
+        .mother
+        {
            display: flex;
            justify-content: space-evenly;
            border: 2px solid white ;
@@ -74,32 +79,35 @@
            padding: 6px;
            padding-top: 50px;
         }
-        .son{
+        .son
+        {
             text-align: center;
             padding: 20px;
             padding-bottom: 0px;
             border: 3px solid rgb(136, 118, 118);
             border-radius: 20px;
         }
-        .l{
+        .l
+        {
             display: flex;
             border: 2px solid white;
             padding: 0 20px;
             flex-wrap: wrap;
-            background-image: url(https://image.freepik.com/free-vector/red-background-template-with-wave-patterns_1308-36899.jpg);
-            
+            background-image: url(https://image.freepik.com/free-vector/red-background-template-with-wave-patterns_1308-36899.jpg); 
         }
-        .m>h3{
+
+        .m>h3
+        {
             justify-content: space-evenly;
             color: white;
             margin: 50px auto ;
         }
-        .m>img{
+        .m>img
+        {
             height: 180px;
             width: 220px;
             padding: 10px;
             border-radius: 40px 0px 0px 40px;
-
         }
     </style>
 </head>
@@ -111,6 +119,7 @@
         <div><i class="fa-solid fa-cart-shopping"></i> Cart</div>
         <div><a href=""><i class="fa-solid fa-store"></i>  Become a seller</a></div>
     </div>
+
     <div class="parent">
         <div class="child"> 
             <img src="https://th.bing.com/th/id/OIP.34bK5VMq1ykzRPfKdBpFOgHaHa?w=209&h=209&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
@@ -141,6 +150,7 @@
             <p>Grocery</p>
         </div>
     </div>
+
     <div class="l">
         <div class="m">
             <h3>Puma Adidas...</h3>
@@ -171,6 +181,7 @@
             <img src="https://www.drmalaymehta.com/wp-content/uploads/2022/09/biofibre-hair-transplant-in-Mumbai.jpg" alt="">
         </div>
     </div>
+
     <div class="mother">
         <div class="son"> 
             <img src="https://i.pinimg.com/originals/ad/37/57/ad3757d7fbfa90bbcbf4042bb52a0309.jpg" alt="">
