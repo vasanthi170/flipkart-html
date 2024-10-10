@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
+    <style>
+        body{
+            background-color: rgb(177, 176, 176);
+
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(41, 41, 252);
+            padding: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: white;
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+        input[type="search"]{
+            padding: 5px;
+            width: 400px;
+        }
+        input[type="button"]{
+            padding: 5px;
+            width: 55px;
+        }
+        a{
+            color: white;
+        }
+        user{
+            border-radius: 200px;
+            border: 10px solid black;
+            margin-left: 2px;
+        }
+        .child>img{
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            padding-top: 20px;
+        }
+        .son>img{
+            width: 180px;
+            height: 180px;
+            padding: 0px;
+        }
+        .parent{
+           display: flex;
+           justify-content: space-evenly;
+           border: 2px solid white ;
+           background-color: white;
+           margin: 10px auto;
+           flex-wrap: wrap;
+        }
+        .child{
+            text-align: center;
+        }
+        .mother{
+           display: flex;
+           justify-content: space-evenly;
+           border: 2px solid white ;
+           background-color: white;
+           margin: 10px auto;
+           flex-wrap: wrap;
+           padding: 6px;
+           padding-top: 50px;
+        }
+        .son{
+            text-align: center;
+            padding: 20px;
+            padding-bottom: 0px;
+            border: 3px solid rgb(136, 118, 118);
+            border-radius: 20px;
+        }
+        .l{
+            display: flex;
+            border: 2px solid white;
+            padding: 0 20px;
+            flex-wrap: wrap;
+            background-image: url(https://image.freepik.com/free-vector/red-background-template-with-wave-patterns_1308-36899.jpg);
+            
+        }
+        .m>h3{
+            justify-content: space-evenly;
+            color: white;
+            margin: 50px auto ;
+        }
+        .m>img{
+            height: 180px;
+            width: 220px;
+            padding: 10px;
+            border-radius: 40px 0px 0px 40px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>Flipkart</div>
+        <div><input type="search" placeholder="Search For Products,Brands and More"></div>
+        <div><i class="fa-regular fa-user"></i>  <input type="button" value="login"></div>
+        <div><i class="fa-solid fa-cart-shopping"></i> Cart</div>
+        <div><a href=""><i class="fa-solid fa-store"></i>  Become a seller</a></div>
+    </div>
+    <div class="parent">
+        <div class="child"> 
+            <img src="https://th.bing.com/th/id/OIP.34bK5VMq1ykzRPfKdBpFOgHaHa?w=209&h=209&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            <p>Top Offers</p>
+        </div>   
+        <div class="child">
+            <img src="https://th.bing.com/th/id/OIP.fkibV5ekax1UIOE0-KuApgAAAA?rs=1&pid=ImgDetMain" alt="">
+            <p>Mobiles</p>
+        </div> 
+        <div class="child">
+            <img src="https://shashinki.com/shop/getimage/categories/home-appliance-600x600.jpg" alt="">
+            <p>Tv & Appliances</p>
+        </div>
+        <div class="child">
+            <img src="https://images.squarespace-cdn.com/content/v1/5ae8bd2f89c1723a6f6f557b/1565794679412-QOSVO1NO2JF104SBAU4R/AdobeStock_237119664.jpeg" alt="">
+            <p>Electronics</p>
+        </div>
+        <div class="child">
+            <img src="https://th.bing.com/th/id/OIP.grhNDUkImMmGd28tsWb30AHaE8?rs=1&pid=ImgDetMain" alt="">
+            <p>Beauty</p>
+        </div>
+        <div class="child">
+            <img src="https://ceonline.co.uk/media/catalog/category/91S8U6AJ06L._SL1500__1.jpg" alt="">
+            <p>Home & Kitchen</p>
+        </div>
+        <div class="child">
+            <img src="https://th.bing.com/th/id/R.b36415832fd1abd5079c6ad56a77ba87?rik=2YNkuFm5b550Ag&riu=http%3a%2f%2foivietnam.com%2fwp-content%2fuploads%2f2014%2f01%2fgroceries1.jpg&ehk=%2bea5FR%2bS1ZCm7UOQ33SDGz7nppT6PsWXRWt0ZDStEJ8%3d&risl=&pid=ImgRaw&r=0" alt="">
+            <p>Grocery</p>
+        </div>
+    </div>
+    <div class="l">
+        <div class="m">
+            <h3>Puma Adidas...</h3>
+            <h3>Min.65% Off</h3>
+        </div>
+        <div class="m">
+            <img src="https://wallpaperboat.com/wp-content/uploads/2020/06/05/44123/shoes-04.jpg" alt="">
+        </div>
+        <div class="m">
+            <h3>Lenskart...</h3>
+            <h3>Min.60% Off</h3>
+        </div>
+        <div class="m">
+            <img src="https://i.pinimg.com/originals/b3/68/ce/b368ce85c9e523073e0c5406434b23ad.jpg" alt="">
+        </div>
+        <div class="m">
+            <h3>Libas,Indo era...</h3>
+            <h3>Min.70% Off</h3>
+        </div>
+        <div class="m">
+            <img src="https://as2.ftcdn.net/v2/jpg/03/02/39/97/1000_F_302399783_wbkTyswsKIzelJJBcjBLnVqeZS9zth2g.jpg" alt="">
+        </div>
+        <div class="m">
+            <h3>UCB,Killer...</h3>
+            <h3>Min.70% Off</h3>
+        </div>
+        <div class="m">
+            <img src="https://www.drmalaymehta.com/wp-content/uploads/2022/09/biofibre-hair-transplant-in-Mumbai.jpg" alt="">
+        </div>
+    </div>
+    <div class="mother">
+        <div class="son"> 
+            <img src="https://i.pinimg.com/originals/ad/37/57/ad3757d7fbfa90bbcbf4042bb52a0309.jpg" alt="">
+            <p>Grab or GONE</p>
+            <H4>under 255</H4>
+        </div>   
+        <div class="son">
+            <img src="https://th.bing.com/th/id/OIP.Zd7LS7SsbZ2kZ-NRyBCIdwAAAA?rs=1&pid=ImgDetMain" alt="">
+            <p>Water Bottles & Flasks</p>
+            <h4> under 200</h4>
+        </div> 
+        <div class="son">
+            <img src="https://i8.amplience.net/i/jpl/jd_334050_a?qlt=92" alt="">
+            <p>TrackPants & Shorts</p>
+            <h4>Flat 299</h4>
+        </div>
+        <div class="son">
+            <img src="https://th.bing.com/th/id/OIP.Qw2bpqh5OfNjKwu8PmmJmwHaFx?rs=1&pid=ImgDetMain" alt="">
+            <p>Diyas</p>
+            <h4>Under 200</h4>
+        </div>
+        <div class="son">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/91SuL8RMAgL.jpg" alt="">
+            <p>Mosquito Nets</p>
+            <h4>Just 299</h4>
+        </div>
+        <div class="son">
+            <img src="https://i.pinimg.com/originals/82/ce/91/82ce913a07dffdbbb1a6c68a527180a8.jpg" alt="">
+            <p>Pillows</p>
+            <h4>Under 299</h4>
+        </div>
+    </div>
+</body>
+</html>
