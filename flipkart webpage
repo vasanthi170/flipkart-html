@@ -6,8 +6,8 @@
     <style>
         body{
             background-color: rgb(177, 176, 176);
-
         }
+
         .container{
             display: flex;
             justify-content: space-evenly;
@@ -19,7 +19,9 @@
             font-size: 20px;
             flex-wrap: wrap;
         }
-        input[type="search"]{
+
+        input[type="search"]
+        {
             padding: 5px;
             width: 400px;
         }
