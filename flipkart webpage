@@ -4,11 +4,13 @@
     <title>Flipkart</title>
     <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
     <style>
-        body{
+        body
+        {
             background-color: rgb(177, 176, 176);
         }
 
-        .container{
+        .container
+        {
             display: flex;
             justify-content: space-evenly;
             background-color: rgb(41, 41, 252);
@@ -29,10 +31,13 @@
             padding: 5px;
             width: 55px;
         }
-        a{
+
+        a
+        {
             color: white;
         }
-        user{
+        user
+        {
             border-radius: 200px;
             border: 10px solid black;
             margin-left: 2px;
