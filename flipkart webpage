@@ -6,7 +6,7 @@
     <style>
         body
         {
-            background-color: rgb(177, 176, 176);
+            background-color: rgb(177, 176, 176); 
         }
 
         .container
