@@ -92,7 +92,6 @@
             flex-wrap: wrap;
             background-image: url(https://image.freepik.com/free-vector/red-background-template-with-wave-patterns_1308-36899.jpg); 
         }
-
         .m>h3
         {
             justify-content: space-evenly;
