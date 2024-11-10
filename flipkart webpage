@@ -29,7 +29,6 @@
             padding: 5px;
             width: 55px;
         }
-
         a
         {
             color: white;
